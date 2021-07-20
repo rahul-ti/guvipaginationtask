@@ -7,6 +7,7 @@
 }
 body {
   background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  margin: 0;
 }
 table {
   border: 0px solid black;
@@ -46,7 +47,7 @@ td {
   justify-content: center;
   align-content: center;
 }
-.pagebutton {
+a {
   border: solid 1px #d7d7d7;
   border-radius: 0.2rem;
   color: #7d7d7d;
@@ -58,16 +59,22 @@ td {
   background-color: white;
   margin: 0 1px;
 }
-.pagebutton:hover {
+a:hover {
   background-color: #362f4b;
   border-color: slategrey;
   color: white;
 }
 
 @media only screen and (max-width: 630px) {
- *{font-size: 12px;word-wrap: break-word;}
+  * {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
   th,
   td {
     padding: 0 2px;
   }
+  .container {
+  width: 94vw;
+  margin: 10px 3vw;}
 }

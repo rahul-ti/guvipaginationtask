@@ -57,7 +57,7 @@ a {
   text-align: center;
   padding: 0.5rem 0.9rem;
   background-color: white;
-  margin: 0 1px;
+  margin: 1px 1px;
 }
 a:hover {
   background-color: #362f4b;

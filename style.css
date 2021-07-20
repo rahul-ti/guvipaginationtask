@@ -46,7 +46,7 @@ td {
   justify-content: center;
   align-content: center;
 }
-tr{
+tr {
   outline: 1px solid #362f4b3a;
 }
 
@@ -60,7 +60,7 @@ a {
   text-align: center;
   padding: 0.5rem 0.9rem;
   background-color: white;
-  margin:2px 3px;
+  margin: 2px 3px;
 }
 a:hover {
   background-color: #362f4b88;
@@ -83,6 +83,7 @@ a.active {
     padding: 0 5px;
   }
   .container {
-  width: 94vw;
-  margin: 10px 3vw;}
+    width: 94vw;
+    margin: 10px 3vw;
+  }
 }

@@ -85,10 +85,10 @@ async function paginate(page = 1) {
   page == 1 ? document.getElementById('previousButton').style.display = 'none' : document.getElementById('previousButton').style.display = 'unset';
   page == state.pages ? document.getElementById('nextButton').style.display = 'none' : document.getElementById('nextButton').style.display = 'unset';
   renderRows(trimmedData)
-  let buttons =  document.getElementsByTagName('a')
+  let buttons = document.getElementsByTagName('a')
   Array.from(buttons).forEach(element => {
     element.classList.remove('active')
-    element.innerText ==state.page? element.classList.add('active'):null;
+    element.innerText == state.page ? element.classList.add('active') : null;
   });
 
 }

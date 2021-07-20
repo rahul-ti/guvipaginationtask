@@ -2,6 +2,8 @@
 * {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
 }
 body {
   background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
@@ -60,4 +62,12 @@ td {
   background-color: #362f4b;
   border-color: slategrey;
   color: white;
+}
+
+@media only screen and (max-width: 630px) {
+ *{font-size: 12px;word-wrap: break-word;}
+  th,
+  td {
+    padding: 0 2px;
+  }
 }

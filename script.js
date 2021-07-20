@@ -8,6 +8,7 @@ let state = {
 function firstRender() {
   let x = document.createElement("div");
   x.className = 'container'
+  x.style.overflowX = 'auto'
   document.body.appendChild(x);
   let table = document.createElement("table");
   let pages = document.createElement("div");

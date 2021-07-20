@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+body {
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+table {
+  border: 0px solid black;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  border-collapse: collapse;
+  background: white;
+}
+table,
+thead {
+  width: 100%;
+}
+thead {
+  background-color: #362f4b;
+  color: white;
+}
+th,
+td {
+  width: 33%;
+  text-align: center;
+  height: 35px;
+  font-weight: normal;
+  padding: 0 30px;
+}
+.container {
+  width: 80vw;
+  margin: 10px 10vw;
+  height: auto;
+}
+.pages {
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 0.2rem;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.pagebutton {
+  border: solid 1px #d7d7d7;
+  border-radius: 0.2rem;
+  color: #7d7d7d;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5rem 0.9rem;
+  background-color: white;
+  margin: 0 1px;
+}
+.pagebutton:hover {
+  background-color: #362f4b;
+  border-color: slategrey;
+  color: white;
+}
